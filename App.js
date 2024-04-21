@@ -9,7 +9,7 @@ export default function App() {
   const [theme, setTheme] = useState('dark');
   return (
     <ThemeContext.Provider value={theme}>
-      <SafeAreaView style={theme === 'light' ? styles.container : [styles.container, {backgroundColor: '#000'}]}>
+      <SafeAreaView style={theme === 'light' ? styles.container : [styles.container, { backgroundColor: '#000' }]}>
         <StatusBar style="auto" />
         <View style={styles.keyboardContainer}>
           <MyKeyboard />
