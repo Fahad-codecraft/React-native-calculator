@@ -81,6 +81,7 @@ export default function MyKeyboard() {
         break;
     }
   };
+  
   return (
     <View style={Styles.viewBottom}>
       <View
